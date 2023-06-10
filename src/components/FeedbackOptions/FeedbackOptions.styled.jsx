@@ -22,12 +22,12 @@ export const Button = styled.button`
   background-position: 100%;
   background-size: 400%;
 
-  :nth-child(2) {
+  :nth-of-type(2) {
     border-color: orange;
     background-image: linear-gradient(45deg, orange 50%, transparent 50%);
   }
 
-  :nth-child(3) {
+  :nth-of-type(3) {
     border-color: red;
     background-image: linear-gradient(45deg, red 50%, transparent 50%);
   }
